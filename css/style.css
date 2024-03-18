@@ -1,0 +1,50 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+:root {
+    --plyr-color-main: #35C262;
+}
+
+.plyr__control--overlaid[data-plyr="play"] {
+    background-color: transparent;
+    border: none;
+}
+
+.plyr__control--overlaid[data-plyr="play"]:hover {
+    background-color: transparent;
+    border: none;
+}
+
+.plyr__control--overlaid[data-plyr="play"]::before {
+    content: url("../assets/play.svg");
+    display: block;
+    width: 6em;
+    height: 6em;
+    background-color: transparent;
+}
+
+.plyr__control--overlaid[data-plyr="play"] svg {
+    display: none;
+}
+
+.plyr {
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+}
+
+video {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}

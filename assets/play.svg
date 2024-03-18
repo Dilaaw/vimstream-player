@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <!-- Fond vert en cercle -->
+  <circle cx="12" cy="12" r="10" fill="#4CAF50" stroke="#388E3C" stroke-width="2"/>
+  <!-- Symbole de lecture -->
+  <path fill="#FFF" d="M9 16.5v-9l7 4.5-7 4.5z"/>
+</svg>
