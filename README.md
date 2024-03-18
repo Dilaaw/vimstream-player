@@ -1,4 +1,4 @@
-# README for HLS Video Player with Plyr
+# HLS Video Player Custom with Plyr
 
 This HTML file integrates a custom video player using Plyr and HLS.js to play video streams in HLS (HTTP Live Streaming) format as well as MP4 files.
 
